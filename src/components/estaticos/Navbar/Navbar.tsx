@@ -14,16 +14,24 @@ function Navbar() {
                         </Box>
                         <Box display="flex" alignItems="center" justifyContent="space-evenly" paddingRight={10}>
                             <Box px={2}>
-                                <Typography> Home </Typography>
+                                <a href="#home" className="text-decoration-none">
+                                    <Typography > Home </Typography>
+                                </a>
                             </Box>
                             <Box px={2}>
-                                <Typography> Habilidades </Typography>
+                                <a href="#habilidades" className="text-decoration-none">
+                                    <Typography > Habilidades </Typography>
+                                </a>
                             </Box>
                             <Box px={2}>
-                                <Typography> Projetos </Typography>
+                                <a href="#projetos" className="text-decoration-none">
+                                    <Typography > Projetos </Typography>
+                                </a>
                             </Box>
                             <Box px={2}>
-                                <Typography> Contato </Typography>
+                                <a href="#contato" className="text-decoration-none">
+                                    <Typography > Contato </Typography>
+                                </a>
                             </Box>
                         </Box>
                     </Toolbar>
