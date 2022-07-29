@@ -1,0 +1,9 @@
+.appbar {
+    background-color: #000000 !important;
+}
+
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
