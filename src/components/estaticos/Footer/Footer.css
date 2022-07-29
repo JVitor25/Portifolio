@@ -1,0 +1,21 @@
+.GridContainerFooter{
+    background-color: #000000;
+    padding: 2px;
+}
+
+.GridItemFooter{
+    justify-items: center;
+}
+
+.texto{
+    color: #ffffff;
+}
+
+.BoxTextoRedesSociais{
+    justify-content: center;
+    border-bottom: 1px white solid;
+}
+
+.icone-rede-sociais{
+    color: #43759B;
+}
