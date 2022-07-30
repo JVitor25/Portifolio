@@ -19,6 +19,11 @@ function Navbar() {
                                 </a>
                             </Box>
                             <Box px={2}>
+                                <a href="#sobre" className="text-decoration-none">
+                                    <Typography > Sobre </Typography>
+                                </a>
+                            </Box>
+                            <Box px={2}>
                                 <a href="#habilidades" className="text-decoration-none">
                                     <Typography > Habilidades </Typography>
                                 </a>

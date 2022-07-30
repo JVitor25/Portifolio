@@ -1,0 +1,27 @@
+.GridContainerSobre {
+    background-color: #486983;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.ilustracao {
+    width: 100%;
+    max-width: 360px;
+    border-radius: 10%;
+}
+
+.box-Ilustracao {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-Sobre{
+    color: white;
+    text-align: justify;
+    margin: 20px;
+}
+
+.GridItemSobre{
+}
