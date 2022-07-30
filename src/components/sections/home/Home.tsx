@@ -12,7 +12,9 @@ function Home() {
                 container
                 direction="row"
                 alignItems="stretch"
-                xs={7}>
+                xs={10}
+                sm={10}
+                md={7}>
                 <Grid item container direction="column" sm={6} xs={12} className="GridItemHome">
                     <Box className="box-Home">
                         <Box sx={{ fontFamily: "italic" }}> <Typography variant="h4" noWrap={false}>João Vitor Lima</Typography></Box>
