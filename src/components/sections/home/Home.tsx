@@ -18,7 +18,7 @@ function Home() {
                 lg={7}
                 xl={7}>
                 <Grid item container direction="column" sm={6} xs={12} className="GridItemHome">
-                    <Box sx={{ maxWidth:"460px" }}>
+                    <Box sx={{ maxWidth: "460px" }}>
 
                         <Box className="box-Home">
                             <Box sx={{ fontFamily: "italic" }}> <Typography variant="h4" noWrap={false}>João Vitor Lima</Typography></Box>
@@ -29,8 +29,10 @@ function Home() {
                         <Box className="box-Home" paddingTop={2}>
                             <Typography variant="h6">Bem-vindo(a) ao meu portfólio, conheça alguns projetos desenvolvidos.</Typography>
                         </Box>
-                        <Box className="box-Home botao" paddingTop={6}>
-                            <Button variant="contained" color="secondary"> Projetos </Button>
+                        <Box className="box-Home botao" paddingTop={2}>
+                            <a href="#projetos" className="text-decoration-none">
+                                <button className="grow_skew_forward"> Projetos </button>
+                            </a>
                         </Box>
                     </Box>
                 </Grid>
