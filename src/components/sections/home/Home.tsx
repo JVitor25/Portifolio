@@ -12,11 +12,11 @@ function Home() {
                 container
                 direction="row"
                 alignItems="stretch"
-                xs={10}
-                sm={10}
-                md={9}
-                lg={7}
-                xl={7}>
+                xs={11}
+                sm={11}
+                md={10}
+                lg={9}
+                xl={8}>
                 <Grid item container direction="column" sm={6} xs={12} className="GridItemHome">
                     <Box sx={{ maxWidth: "460px" }}>
 

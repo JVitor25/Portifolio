@@ -10,11 +10,11 @@ function Sobre() {
                 container
                 direction="row"
                 alignItems="stretch"
-                xs={10}
-                sm={10}
-                md={9}
-                lg={7}
-                xl={7}>
+                xs={11}
+                sm={11}
+                md={10}
+                lg={9}
+                xl={8}>
                 <Grid item sm={6} xs={12}>
                     <Box className="box-Ilustracao">
                         <img src="https://img.freepik.com/vetores-gratis/icones-de-jogos-isometricos-icones-3d-planos-com-simbolos-de-jogos_1284-53075.jpg?w=826&t=st=1659191144~exp=1659191744~hmac=c194cea40c6e862a2e849fc2f57e7f32c1ea2f68861bae074e26d82f299bc5e1" alt="Imagem Ilustratviva" className="ilustracao" />

@@ -4,6 +4,7 @@ import React from 'react';
 import './App.css';
 import Footer from './components/estaticos/footer/Footer';
 import Navbar from './components/estaticos/navbar/Navbar';
+import Habilidades from './components/sections/habilidades/Habilidades';
 import Home from './components/sections/home/Home';
 import Sobre from './components/sections/sobre/Sobre';
 
@@ -20,6 +21,9 @@ function App() {
         </Box>
         <Box className="gridItem-App" sx={{backgroundColor:"#486983"}}>
           <Sobre />
+        </Box>
+        <Box className="gridItem-App" sx={{backgroundColor:"#1D2D39"}}>
+          <Habilidades />
         </Box>
       </Grid>
       <Footer />
