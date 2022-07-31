@@ -18,8 +18,8 @@ function Habilidades() {
     var tecnologiasFrontEnd = [
         { nome: "HTML", imagem: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg", descricao: "" },
         { nome: "CSS", imagem: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg", descricao: "" },
-        { nome: "JavaScript", imagem: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg", descricao: "" },
-        { nome: "TypeScript", imagem: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg", descricao: "" },
+        { nome: "JavaScript", imagem: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg", descricao: "" },
+        { nome: "TypeScript", imagem: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg", descricao: "" },
         { nome: "React.JS", imagem: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg", descricao: "" },
     ];
 

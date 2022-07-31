@@ -1,9 +1,8 @@
 import { Grid, Typography } from '@material-ui/core';
-import { Box, Button } from '@mui/material';
+import { Box } from '@mui/material';
 import React from 'react'
 import "./Home.css";
 import foto from "../../imagens/joao.png";
-import nome from "../../imagens/nome.png";
 
 function Home() {
     return (

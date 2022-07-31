@@ -22,7 +22,7 @@ function App() {
         <Box className="gridItem-App" sx={{backgroundColor:"#486983"}}>
           <Sobre />
         </Box>
-        <Box className="gridItem-App" sx={{backgroundColor:"#1D2D39"}}>
+      <Box className="gridItem-App" sx={{backgroundColor:"#1D2D39"}}>
           <Habilidades />
         </Box>
       </Grid>
