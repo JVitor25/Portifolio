@@ -15,12 +15,12 @@ function Sobre() {
                 md={10}
                 lg={9}
                 xl={8}>
-                <Grid item sm={6} xs={12}>
+                <Grid item xs={12} sm={5} md={6}>
                     <Box className="box-Ilustracao">
                         <img src="https://img.freepik.com/vetores-gratis/icones-de-jogos-isometricos-icones-3d-planos-com-simbolos-de-jogos_1284-53075.jpg?w=826&t=st=1659191144~exp=1659191744~hmac=c194cea40c6e862a2e849fc2f57e7f32c1ea2f68861bae074e26d82f299bc5e1" alt="Imagem Ilustratviva" className="ilustracao" />
                     </Box>
                 </Grid>
-                <Grid item container direction="column" sm={6} xs={12} justifyContent="flex-start" className="GridItemSobre">
+                <Grid item container direction="column" xs={12} sm={7} md={6} justifyContent="flex-start" className="GridItemSobre">
                     <Box className="box-Sobre">
                         <Box sx={{ borderColor: "white", borderBottomStyle:"solid"}}>
                             <Typography variant="h4">

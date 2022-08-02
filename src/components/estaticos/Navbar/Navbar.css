@@ -1,10 +1,15 @@
 .appbar {
     background-color: #000000 !important;
+    top: -2px !important;
 }
 
 .text-decoration-none{
     text-decoration: none;
     color: white;
+}
+
+.sanduiche{
+    color: black !important;
 }
 
 .toolbar {
@@ -15,4 +20,9 @@
 
 .nomeHorizontal{
     width: 160px;
+}
+
+.teste{
+    background-color: black !important;
+    color: #000000 !important;
 }

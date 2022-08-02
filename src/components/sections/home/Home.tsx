@@ -16,7 +16,7 @@ function Home() {
                 md={10}
                 lg={9}
                 xl={8}>
-                <Grid item container direction="column" sm={6} xs={12} className="GridItemHome">
+                <Grid item container direction="column" xs={12} sm={7} md={6} className="GridItemHome">
                     <Box sx={{ maxWidth: "460px" }}>
 
                         <Box className="box-Home">
@@ -35,7 +35,7 @@ function Home() {
                         </Box>
                     </Box>
                 </Grid>
-                <Grid item sm={6} xs={12}>
+                <Grid item xs={12} sm={5} md={6}>
                     <Box className="box-Foto zoom">
                         <img src={foto} alt="" className="foto zoom" />
                     </Box>

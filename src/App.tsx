@@ -10,19 +10,20 @@ import Sobre from './components/sections/sobre/Sobre';
 
 function App() {
   return (
-    <div className="visualizacao">
+    <div className="visualizacao" id="Home">
       <Navbar />
       <Grid container
         direction="column"
         alignItems="center"
-        sm={12}>
-        <Box className="gridItem-App" sx={{backgroundColor:"#43759B"}}>
+        sm={12}
+      >
+        <Box className="gridItem-App" sx={{ backgroundColor: "#43759B" }}>
           <Home />
         </Box>
-        <Box className="gridItem-App" sx={{backgroundColor:"#486983"}}>
+        <Box className="gridItem-App" sx={{ backgroundColor: "#486983" }} id="Sobre">
           <Sobre />
         </Box>
-      <Box className="gridItem-App" sx={{backgroundColor:"#1D2D39"}}>
+        <Box className="gridItem-App" sx={{ backgroundColor: "#1D2D39" }} id="Habilidades">
           <Habilidades />
         </Box>
       </Grid>
