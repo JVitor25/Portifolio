@@ -27,7 +27,7 @@ function App() {
           <Habilidades />
         </Box>
       </Grid>
-      <Footer />
+      {/* <Footer /> */}
     </div >
   );
 }
