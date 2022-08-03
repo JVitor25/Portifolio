@@ -12,10 +12,10 @@ import "./Projetos.css";
 
 function Projetos() {
     var projetos = [
-        { tipo: "Rede Social", nome: "BlogPessoal", imagem: "https://i.imgur.com/JgkccR7.png", github: "https://github.com/JVitor25/blog-pessoal-react", site: "blogjvitor.netlify.app" },
+        { tipo: "Rede Social", nome: "BlogPessoal", imagem: "https://i.imgur.com/JgkccR7.png", github: "https://github.com/JVitor25/blog-pessoal-react", site: "https://blogjvitor.netlify.app" },
         { tipo: "Rede Social", nome: "ConetaONG", imagem: "https://i.imgur.com/WiuAj18.png", github: "https://github.com/JVitor25/ConectaONG", site: "https://conectaong.netlify.app" },
-        { tipo: "Landing Page", nome: "Portifólio", imagem: "https://i.imgur.com/mk9rUvV.png", github: "https://github.com/JVitor25/Portifolio", site: "portifoliojoaovitor.netlify.app" },
-        { tipo: "Ecommerce", nome: "Amor em Papeis", imagem: "https://i.imgur.com/qyNNCoF.png", site: "https://github.com/JVitor25/E-Commerce_Papelaria" },
+        { tipo: "Landing Page", nome: "Portifólio", imagem: "https://i.imgur.com/mk9rUvV.png", github: "https://github.com/JVitor25/Portifolio", site: "https://portifoliojoaovitor.netlify.app" },
+        { tipo: "Ecommerce", nome: "Amor em Papeis", imagem: "https://i.imgur.com/qyNNCoF.png", github: "https://github.com/JVitor25/E-Commerce_Papelaria", site: "https://github.com/JVitor25/E-Commerce_Papelaria" },
     ];
 
     return (
