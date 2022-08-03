@@ -6,6 +6,7 @@ import Footer from './components/estaticos/Footer/Footer';
 import Navbar from './components/estaticos/Navbar/Navbar';
 import Habilidades from './components/sections/habilidades/Habilidades';
 import Home from './components/sections/home/Home';
+import Projetos from './components/sections/projetos/Projetos';
 import Sobre from './components/sections/sobre/Sobre';
 
 function App() {
@@ -25,6 +26,9 @@ function App() {
         </Box>
         <Box className="gridItem-App" sx={{ backgroundColor: "#1D2D39" }} id="Habilidades">
           <Habilidades />
+        </Box>
+        <Box className="gridItem-App" sx={{ backgroundColor: "#486983" }} id="Projetos">
+          <Projetos />
         </Box>
       </Grid>
       <Footer />

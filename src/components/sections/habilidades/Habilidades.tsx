@@ -42,7 +42,7 @@ function Habilidades() {
                 lg={9}
                 xl={8}>
                 <Grid item alignItems="center">
-                    <Box className="box-Habilidades" sx={{ borderColor: "white", borderBottomStyle: "solid" }} marginTop={2}>
+                    <Box className="box-Habilidades" sx={{ borderColor: "white", borderBottomStyle: "solid" }} marginTop={5} p={1}>
                         <Typography variant="h4">
                             Habilidades
                         </Typography>
