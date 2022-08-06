@@ -45,7 +45,6 @@ function Projetos() {
                             maxheight: 400,
                         },
                         justifyContent: "center",
-                        // backgroundColor: "bisque"
                     }}>
                         {projetos.map(projeto =>
                             <Card sx={{ maxWidth: 500, backgroundColor: "#25262A", color: "white" }}>

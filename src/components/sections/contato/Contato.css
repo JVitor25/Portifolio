@@ -1,0 +1,28 @@
+.GridContainerContato {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+}
+
+.teste {
+    background-color: aqua !important;
+}
+
+.Campo-Nome {
+    background-color: white;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 15px;
+    /* margin-inline: 10px; */
+}
+
+.Campo-Texto {
+    display: "flex";
+    justify-content: "center";
+    align-items: "center";
+    background-color: white;
+    border-radius: 10px;
+    width: 100%;
+    min-width: 219px;
+    margin-top: 20px;
+}
