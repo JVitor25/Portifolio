@@ -29,7 +29,7 @@ function Home() {
                             <Typography variant="h6">Bem-vindo(a) ao meu portfólio, conheça alguns projetos desenvolvidos.</Typography>
                         </Box>
                         <Box className="box-Home botao" paddingTop={2}>
-                            <a href="#projetos" className="text-decoration-none">
+                            <a href="#Projetos" className="text-decoration-none">
                                 <button className="grow_skew_forward"> Projetos </button>
                             </a>
                         </Box>
